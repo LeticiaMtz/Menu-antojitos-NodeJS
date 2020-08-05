@@ -1,0 +1,19 @@
+{
+  "name": "menu-antojitos-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeticiaMtz/Menu-antojitos-NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeticiaMtz/Menu-antojitos-NodeJS/issues"
+  },
+  "homepage": "https://github.com/LeticiaMtz/Menu-antojitos-NodeJS#readme"
+}
