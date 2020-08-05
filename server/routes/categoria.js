@@ -6,7 +6,7 @@ const app = express();
 
 //|-----------------  Api GET de Categoria   ----------------|
 //| Creada por: Leticia Moreno                               |
-//| Api que obtine listado de categorias                     |
+//| Api que obtiene listado de categorias                    |
 //| modificada por:                                          |
 //| Fecha de modificacion:                                   |
 //| cambios:                                                 |
@@ -36,13 +36,12 @@ app.get('/obtener', (req, res) => {
 
 //|-----------------   Api GET de Categoria  ---------------------|
 //| Creada por: Leticia Moreno                                    |
-//| Api que obtine una categoria por id                           |
+//| Api que obtiene una categoria por id                          |
 //| modificada por:                                               |
 //| Fecha de modificacion:                                        |
 //| cambios:                                                      |
 //| Ruta: http://localhost:3000/api/categoria/obtener/idCategoria |
 //|---------------------------------------------------------------|
-//Obtener por id
 app.get('/obtener/:id',  (req, res) => {
     let id = req.params.id;
     Categoria.find({ _id: id })

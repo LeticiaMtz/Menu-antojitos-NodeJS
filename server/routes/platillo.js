@@ -7,7 +7,7 @@ const app = express();
 
 //|-----------------  Api GET de Platillos   ----------------|
 //| Creada por: Leticia Moreno                               |
-//| Api que obtine listado de platillos                      |
+//| Api que obtiene listado de platillos                     |
 //| modificada por:                                          |
 //| Fecha de modificacion:                                   |
 //| cambios:                                                 |
@@ -35,7 +35,7 @@ app.get('/obtener',  async (req, res) => {
 
 //|-----------------   Api GET de Platillos  --------------------|
 //| Creada por: Leticia Moreno                                   |
-//| Api que obtine un rol por id                                 |
+//| Api que obtiene un rol por id                                |
 //| modificada por:                                              |
 //| Fecha de modificacion:                                       |
 //| cambios:                                                     |
